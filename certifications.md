@@ -1,5 +1,4 @@
 ---
-title: Certifications
 
 layout: certification
 permalink: /certifications/
