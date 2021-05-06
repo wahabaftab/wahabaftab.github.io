@@ -7,6 +7,4 @@ entries_layout: grid
 
 ---
 
-## Helio-Tactics and Seeds of Disruption: The Revolution will not be televised.
-
-Blogging traces of quantum entanglement
+I’ve been thinking of writing blogs for a very long time, and finally here it is. Currently, I am committing myself on doing one blog post per month though it’d be really great if I could manage time for writing more often. 
