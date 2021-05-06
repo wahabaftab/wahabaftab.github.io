@@ -25,9 +25,9 @@ encoding: UTF-8
 
 
 google_fonts:
-  - name: "Source Sans Pro"
+  - name: "PT Sans Narrow"
     weights: "400,400i,700,700i"
-  - name: "Lora"
+  - name: "sans-serif"
     weights: "400,400i,700,700i"
     
 # Liquid
