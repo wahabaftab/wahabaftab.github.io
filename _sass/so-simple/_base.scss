@@ -13,6 +13,11 @@ html {
   @include fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size);
 }
 
+.decor {
+  text-decoration: None;
+}
+
+
 body {
   border-top: solid 0.25em;
 }
