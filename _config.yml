@@ -55,9 +55,9 @@ search_full_content: false # can have performance implications for large sites
 
 # Collections
 collections:
-#   collab:
-#     output: true
-#     permalink: /:collection/:path/
+  certifications:
+    output: true
+    permalink: /:collection/:path/
   consult:
     output: true
     permalink: /:collection/:path/
@@ -89,7 +89,7 @@ defaults:
 #       share: true
   # Consult defaults
   - scope:
-      path: "_consult"
+      path: "_certifications"
     values:
       layout: collection
       entries_layout: list
