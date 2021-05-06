@@ -2,12 +2,14 @@
    Base elements
    ========================================================================== */
 
-// .center {
-//     display: block;
-//     margin-left: auto;
-//     margin-right: auto;
-//     // width: 50%;
-//   }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    // width: 50%;
+  border-radius: 50%;
+
+  }
 
 html {
   @include fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size);
