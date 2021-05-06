@@ -5,6 +5,14 @@
  * https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
 */
 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    // width: 50%;
+  }
+
 @import "so-simple/functions";
 @import "so-simple/variables";
 @import "so-simple/mixins";
