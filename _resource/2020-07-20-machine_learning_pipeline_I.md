@@ -4,7 +4,6 @@ modified:
 
 title: Machine Learning Pipeline Part-I
 
-excerpt: "Here you will learn complete ML pipeline for a given dataset, this includes data preprocessing, feature engineering and EDA"
 
 thumbnail: /images/machine_learning_pipeline.jpeg
 categories:
@@ -17,4 +16,4 @@ link: https://medium.com/geekculture/machine-learning-pipeline-for-beginners-ret
 ---
 
 
-<a href="{{page.link}}">View Blog!</a>
+<a href="{{page.link}}">"Here you will learn complete ML pipeline for a given dataset, this includes data preprocessing, feature engineering and EDA"</a>
