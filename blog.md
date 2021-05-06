@@ -1,7 +1,8 @@
 ---
 title: "Blogs"
-layout: posts
+layout: collection
 permalink: /blog/
+collection: resource
 show_excerpts: true
 entries_layout: grid
 
