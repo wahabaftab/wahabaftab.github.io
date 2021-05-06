@@ -64,7 +64,7 @@ collections:
   diffract:
     output: true
     permalink: /:collection/:path/
-  resource:
+  blogs:
     output: true
     permalink: /:collection/:path/
 
@@ -104,7 +104,7 @@ defaults:
       share: true
   # Resource defaults
   - scope:
-      path: "_resource"
+      path: "_blogs"
     values:
       layout: collection
       entries_layout: list
