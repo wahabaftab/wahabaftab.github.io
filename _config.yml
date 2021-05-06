@@ -58,7 +58,7 @@ collections:
 #   collab:
 #     output: true
 #     permalink: /:collection/:path/
-  consult:
+  certifications:
     output: true
     permalink: /:collection/:path/
   diffract:
