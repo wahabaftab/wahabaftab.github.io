@@ -15,3 +15,6 @@ tags:
 link: https://medium.com/geekculture/machine-learning-pipeline-for-beginners-retail-returns-dataset-part-i-2132cfcc9e6a
 
 ---
+
+
+Please use the above link to access the blog
