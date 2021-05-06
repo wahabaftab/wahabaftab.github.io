@@ -1,21 +1,24 @@
 # Site navigation links
 
 
-# Home
-- title: About Me!
-  url: /about_me/ 
 
 # Blogs
 - title: Blogs
   url: /blog/
-
+  
+# Projects
+- title: Posts
+  url: /posts/
+  
+# Home
+- title: About Me!
+  url: /about_me/ 
+  
+  
 # Certifications
 - title: Certifications
   url: /certifications/
 
-# Projects
-- title: Posts
-  url: /posts/
 
 # Curriculum Vitae
 - title: Curriculum Vitae
