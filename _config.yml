@@ -78,14 +78,7 @@ defaults:
       layout: post
       comments: true
       share: true
-   # Certificates defaults
-  - scope:
-      path: "_blogs"
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
+
 #   # Collab defaults
 #   - scope:
 #       path: "_collab"
