@@ -82,7 +82,7 @@ defaults:
   - scope:
       path: "_certifications"
     values:
-      layout: collection
+      layout: certification
       entries_layout: list
       comments: true
       share: true
