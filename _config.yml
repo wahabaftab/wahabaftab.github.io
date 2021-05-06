@@ -78,27 +78,8 @@ defaults:
       layout: post
       comments: true
       share: true
-   # Post defaults
-
-#   # Collab defaults
-#   - scope:
-#       path: "_collab"
-#     values:
-#       layout: collection
-#       entries_layout: grid
-#       comments: true
-#       share: true
-  # Consult defaults
-  # Diffract defaults
-  - scope:
-      path: "_diffract"
-    values:
-      layout: collection
-      entries_layout: list
-      comments: true
-      share: true
   # Resource defaults
-    - scope:
+  - scope:
       path: "_certifications"
     values:
       layout: collection
@@ -112,6 +93,26 @@ defaults:
       entries_layout: list
       comments: true
       share: true
+   # Post defaults
+
+#   # Collab defaults
+#   - scope:
+#       path: "_collab"
+#     values:
+#       layout: collection
+#       entries_layout: grid
+#       comments: true
+#       share: true
+  # Consult defaults
+  # Diffract defaults
+#   - scope:
+#       path: "_diffract"
+#     values:
+#       layout: collection
+#       entries_layout: list
+#       comments: true
+#       share: true
+
 
 # Site Author
 author:
