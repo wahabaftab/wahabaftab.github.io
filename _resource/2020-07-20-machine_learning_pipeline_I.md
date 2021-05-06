@@ -5,8 +5,8 @@ modified:
 title: Machine Learning Pipeline Part-I
 
 excerpt: "Here you will learn complete ML pipeline for a given dataset, this includes data preprocessing, feature engineering and EDA"
-image:
-  thumbnail: /images/machine_learning_pipeline.jpeg
+
+thumbnail: /images/machine_learning_pipeline.jpeg
 categories:
   - Post Formats
 tags:
