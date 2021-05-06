@@ -55,9 +55,9 @@ search_full_content: false # can have performance implications for large sites
 
 # Collections
 collections:
-#   certifications:
-#     output: true
-#     permalink: /:collection/:path/
+  certifications:
+    output: true
+    permalink: /:collection/:path/
   consult:
     output: true
     permalink: /:collection/:path/
