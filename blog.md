@@ -2,7 +2,7 @@
 title: "Blogs"
 layout: collection
 permalink: /blog/
-collection: resource
+collection: blogs
 show_excerpts: true
 entries_layout: grid
 
