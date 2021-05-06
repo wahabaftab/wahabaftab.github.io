@@ -14,8 +14,13 @@ tags:
 link: https://medium.com/geekculture/machine-learning-pipeline-for-beginners-retail-returns-dataset-part-i-2132cfcc9e6a
 
 ---
+<style>
+a {
+  text-decoration: None;
+}
+</style>
 
 <a href="{{page.link}}">
 <img src="/images/machine_learning_pipeline.jpeg">
 </a>
-<a href="{{page.link}}">"Here you will learn complete ML pipeline for a given dataset, this includes data preprocessing, feature engineering and EDA"</a>
+<a href="{{page.link}}">Here you will learn complete ML pipeline for a given dataset, this includes data preprocessing, feature engineering and EDA</a>
