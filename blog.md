@@ -1,12 +1,9 @@
 ---
-title: "Queering Solar"
+title: "Blogs"
 layout: posts
 permalink: /blog/
 show_excerpts: true
 entries_layout: grid
-image:
-  path: /images/NorthPorch_SC_2016.png
-  credit: JRS Brownson
 
 ---
 
