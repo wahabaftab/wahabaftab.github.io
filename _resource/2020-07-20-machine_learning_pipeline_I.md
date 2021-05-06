@@ -23,4 +23,4 @@ link: https://medium.com/geekculture/machine-learning-pipeline-for-beginners-ret
 <a href="{{page.link}}">
 <img src="/images/machine_learning_pipeline.jpeg">
 </a>
-<a class=decor href="{{page.link}}">Here you will learn complete ML pipeline for a given dataset, this includes data preprocessing, feature engineering and EDA</a>
+<a class='decor' href="{{page.link}}">Here you will learn complete ML pipeline for a given dataset, this includes data preprocessing, feature engineering and EDA</a>
