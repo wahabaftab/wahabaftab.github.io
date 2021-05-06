@@ -96,13 +96,6 @@ defaults:
 #       comments: true
 #       share: true
   # Consult defaults
-  - scope:
-      path: "_certifications"
-    values:
-      layout: collection
-      entries_layout: list
-      comments: true
-      share: true
   # Diffract defaults
   - scope:
       path: "_diffract"
