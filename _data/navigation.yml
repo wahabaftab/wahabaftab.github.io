@@ -1,27 +1,23 @@
 # Site navigation links
 
-# Block describing the Solar Collaborative
-# - title: Home
-#   url:  /collab/ 
 
+# Home
 - title: About Me!
   url: /index/ 
 
-# # Queering Solar Blogging
+# Blogs
 - title: Blogs
   url: /blog/
 
-# Basic Solar Ecology Practices
+# Certifications
 - title: Certifications
   url: /certifications/
 
-# # What do we know about Material Discursive Praxis?
-# - title: Brownson Art
-#   url: /diffract/
-
+# Projects
 - title: Posts
   url: /posts/
 
-- title: Resume
+# Curriculum Vitae
+- title: Curriculum Vitae
   url: /CV/CV.pdf
 
