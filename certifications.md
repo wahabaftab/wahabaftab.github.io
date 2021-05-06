@@ -1,8 +1,8 @@
 ---
 title: Certifications
-layout: collection
+
+layout: certification
 permalink: /certifications/
-collection: certifications
 show_excerpts: true
 entries_layout: list
 
