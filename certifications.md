@@ -1,9 +1,9 @@
 ---
 title: Certifications
 
-layout: certification
+layout: tags
 permalink: /certifications/
 show_excerpts: true
 entries_layout: list
-
+tag: certificate
 ---
