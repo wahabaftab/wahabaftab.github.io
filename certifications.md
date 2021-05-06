@@ -1,5 +1,5 @@
 ---
-layout: tag-page
+layout: posts
 title: Certifications
 
 ---
