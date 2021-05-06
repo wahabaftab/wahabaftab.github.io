@@ -60,9 +60,9 @@ search_full_content: false # can have performance implications for large sites
 
 # Collections
 collections:
-  collab:
-    output: true
-    permalink: /:collection/:path/
+#   collab:
+#     output: true
+#     permalink: /:collection/:path/
   consult:
     output: true
     permalink: /:collection/:path/
@@ -83,14 +83,14 @@ defaults:
       layout: post
       comments: true
       share: true
-  # Collab defaults
-  - scope:
-      path: "_collab"
-    values:
-      layout: collection
-      entries_layout: grid
-      comments: true
-      share: true
+#   # Collab defaults
+#   - scope:
+#       path: "_collab"
+#     values:
+#       layout: collection
+#       entries_layout: grid
+#       comments: true
+#       share: true
   # Consult defaults
   - scope:
       path: "_consult"
