@@ -15,10 +15,6 @@ link: https://medium.com/geekculture/machine-learning-pipeline-for-beginners-ret
 
 ---
 <style>
-.decor {
-  text-decoration: None;
-}
-</style>
 
 <a href="{{page.link}}">
 <img src="/images/machine_learning_pipeline.jpeg">
