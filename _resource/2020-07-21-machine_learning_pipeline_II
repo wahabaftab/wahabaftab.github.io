@@ -1,0 +1,20 @@
+---
+modified:
+
+title: Machine Learning Pipeline Part-II
+
+
+thumbnail: /images/machine_learning_pipeline.jpeg
+categories:
+  - Post Formats
+tags:
+  - link
+  - Post Formats
+link: https://medium.com/geekculture/machine-learning-pipeline-for-beginners-retail-returns-dataset-part-ii-57cd8b8a0743
+
+---
+
+<a href="{{page.link}}">
+<img src="/images/machine_learning_pipeline.jpeg">
+</a>
+<a class='decor' href="{{page.link}}">This article will help you understand the modelling aspect of Machine Learning Pipeline , We have already completed the Pre-Modelling Phase.</a>
