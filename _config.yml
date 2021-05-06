@@ -17,7 +17,7 @@ description: "An explorer who likes to play with data"
 url: "//wahabaftab.github.io"
 # logo:  '/images/Sunpath_41_N-1.png' # eitplume_SOHO_Sun_mod.png # 
 date_format: "%-d %B %Y" # "originally %B %-d, %Y" 
-read_time: true
+read_time: false
 words_per_minute: 200
 mathjax: true
 
