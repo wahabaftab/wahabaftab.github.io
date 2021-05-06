@@ -1,7 +1,6 @@
 ---
 title: "IMDB Movie Rating Prediction"
 last_modified_at:
-layout: inner_page
 excerpt: Funky little mechanics tinker away at the apparatus
 
 ---
