@@ -51,19 +51,19 @@
   margin-bottom: 0.5rem;
 }
 
-.entry-meta {
-  .entry-date,
-  .read-time {
-    font-family: $meta-font-family;
-    font-style: italic;
-    white-space: nowrap;
-  }
+// .entry-meta {
+//   .entry-date,
+//   .read-time {
+//     font-family: $meta-font-family;
+//     font-style: italic;
+//     white-space: nowrap;
+//   }
 
-  .read-time + .entry-date::before {
-    content: "\2022";
-    padding: 0 0.5em;
-  }
-}
+//   .read-time + .entry-date::before {
+//     content: "\2022";
+//     padding: 0 0.5em;
+//   }
+// }
 
 .entry-excerpt a,
 .u-bookmark-of {
