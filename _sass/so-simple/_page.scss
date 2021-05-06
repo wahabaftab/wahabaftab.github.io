@@ -70,29 +70,29 @@
   }
 
 
-//   .read-time,
+  .read-time,
   .page-date {
     font-family: $meta-font-family;
     font-style: italic;
     white-space: nowrap;
   }
 
-//   .read-time {
-//     @include breakpoint($large) {
-//       display: block;
-//     }
-//   }
+  .read-time {
+    @include breakpoint($large) {
+      display: block;
+    }
+  }
 
-//   .read-time + .page-date::before {
-//     content: "\2022";
-//     padding: 0 0.5em;
+  .read-time + .page-date::before {
+    content: "\2022";
+    padding: 0 0.5em;
 
-//     @include breakpoint($large) {
-//       content: "";
-//       padding: 0;
-//     }
-//   }
-// }
+    @include breakpoint($large) {
+      content: "";
+      padding: 0;
+    }
+  }
+}
 
 .page-author {
   @include clearfix;
