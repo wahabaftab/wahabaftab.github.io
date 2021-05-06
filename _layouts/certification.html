@@ -6,7 +6,7 @@ layout: page
 
 
 
-{% assign postsByYear = site.certifications | group_by_exp: 'certifications', 'certifications.date | date: "%Y"' %}
+{% assign certificationsByYear = site.certifications | group_by_exp: 'certifications', 'certifications.date | date: "%Y"' %}
 {% for year in certificationsByYear %}
   <section id="{{ year.name }}" class="taxonomy-section">
     <h2 class="taxonomy-title">{{ year.name }}</h2>
