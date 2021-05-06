@@ -1,7 +1,7 @@
 ---
 title: Certifications
 
-layout: certifications
+layout: certification
 permalink: /certifications/
 show_excerpts: true
 entries_layout: list
