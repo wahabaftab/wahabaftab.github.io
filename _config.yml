@@ -79,13 +79,6 @@ defaults:
       comments: true
       share: true
    # Post defaults
-  - scope:
-      path: "_certifications"
-      type: certifications
-    values:
-      layout: certification
-      comments: true
-      share: true
 
 #   # Collab defaults
 #   - scope:
@@ -105,6 +98,13 @@ defaults:
       comments: true
       share: true
   # Resource defaults
+    - scope:
+      path: "_certifications"
+    values:
+      layout: collection
+      entries_layout: list
+      comments: true
+      share: true
   - scope:
       path: "_blogs"
     values:
