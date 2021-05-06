@@ -1,12 +1,10 @@
 ---
 title: "IMDB Movie Rating Prediction"
 last_modified_at:
-excerpt: Funky little mechanics tinker away at the apparatus
+excerpt: A Beginners project to predict your imdb ratings of upcoming or unseen movies.
+
 
 ---
-
-A Beginners project to predict your imdb ratings of upcoming or unseen movies.
-
 
 <!-- <img src="https://quizdoo.com/wp-content/uploads/2015/06/5574ade93e41c.jpg" class="center" width="400" height="400"> -->
 
