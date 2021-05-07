@@ -15,7 +15,7 @@ Upon research we got the figure that 8% males and 0.8 females are born colorblin
 </p>
 
 <p class="inner-page">
-From research and awareness articles, we found out that there were 3 Types of colourblindness [<a style="font-size: 10px" href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">Source</a>].>
+From research and awareness articles, we found out that there were 3 Types of colourblindness [<a style="font-size: 10px" href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">Source</a>].
 Details on the 3 Types of Colorblindness and their subtypes are:
 <ul>
 <li>Red-Green ColorBlindness</li>
