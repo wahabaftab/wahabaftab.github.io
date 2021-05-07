@@ -13,7 +13,7 @@ image:
 <p class="inner-page">
 Upon research we got the figure that 8% males and 0.8 females are born colorblind.Research article’s directed us to information such as most colour blind people are able to see things as clearly as other people but they unable to fully ‘see’ red, green or blue light.
 </p>
-[<a style="font-size: 20px" href="http://www.colourblindawareness.org">Source 1</a>,<a style="font-size: 20px" href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Source 2</a>]
+[<a style="font-size: 10px" href="http://www.colourblindawareness.org">Source 1</a>,<a style="font-size: 20px" href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Source 2</a>]
 <p>
 Being an avid film lover, I do occasionally rate movies or shows on IMDB based on my preference. Now, I know many people who do the same.Sometimes you need some assurance or a trusted review before deciding to put some time and effort into watching a certain movie. People always seem to watch movies recommended by someone As the most trust worthy person when it comes to movie recommendation is you yourself, So its better to watch something you know you will like based on your previous history.
 </p>
