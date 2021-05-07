@@ -7,20 +7,15 @@ This site is set up to serve as a blogging space and research space for Frey Bro
 
 Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
 
-## Notable features:
-
-* Compatible with Jekyll 3 and GitHub Pages.
-* Responsive templates. Looks good on mobile, tablet, and desktop devices.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
-* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
-* Support for Disqus Comments
-
-![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
-
-See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
+## Notable Changes
+I have made some changes from the repo I forked some of them are:
+* About me page was created
+* Another replica of post folder was added without collections i.e certifications which are shown in the certification page
+* Blogs were added and modified such that they have external urls to medium site to view blogs.
+* Favicon image was added.
+* _Layout folder was added to edit previous layouts and add some new ones.
+* _includes folder was added to change theme default html files. One major change was that title is now not hidden if there is a image in the page layout.
+* Resume was added as a page
 
 ---
 
