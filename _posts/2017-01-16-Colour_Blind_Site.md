@@ -3,7 +3,6 @@ title: "Blog for the Visually impaired and Colour Blind"
 last_modified_at:
 excerpt: A blogging website designed for normal people as well as those who are visually impaired or suffer from color-blindness.
 image:
-  path: /images/blog.jpg
   thumbnail: /images/blog.jpg
   
 ---
