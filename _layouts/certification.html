@@ -1,36 +1,23 @@
 ---
 layout: page
 ---
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
-
 .sidenav {
-/*   width: 130px; */
+  height: 100%;
+  width: 160px;
   position: fixed;
-/*   z-index: 1; */
-  top: 300px;
-  left: 300px;
-/*   background: #eee; */
-  overflow-x: hidden;
-  padding: 8px 0;
+  top: 300;
+  left: 300;
 }
-
-
 </style>
-</head>
-<body>
-
-<div class="sidenav">
+<div class="page-sidebar sidenav" >
   {% include page-author.html %}
+  {% include page-categories.html %}
+  {% include page-tags.html %}
 </div>
+{{ content }}
 
-<div>
-{{content}}
-  
+
 {% assign postsByYear = site.certifications | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy-section">
@@ -42,10 +29,3 @@ layout: page
     </div>
   </section>
 {% endfor %}
-</div>  
-
-</body>
-</html> 
-
-
-
