@@ -10,8 +10,12 @@ image:
 <style>
 ul,li,p{font-size:16px;}  
   
-img{    margin-left: auto;
-    margin-right: auto;
+img{     
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 220px;
+max-height: 230px;
     }
 </style>
 
