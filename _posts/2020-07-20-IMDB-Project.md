@@ -6,7 +6,7 @@ layout: inner_page
 
 ---
 <style>
-.inner-page {color: red}
+.inner-page {font-size: 15px;}
 </style>
 
 <!-- <img src="https://quizdoo.com/wp-content/uploads/2015/06/5574ade93e41c.jpg" class="center" width="400" height="400"> -->
