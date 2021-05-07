@@ -2,7 +2,7 @@
 title: "IMDB Movie Rating Prediction"
 last_modified_at:
 excerpt: A Beginners project to predict your imdb ratings of upcoming or unseen movies.
-
+layout: inner_page
 ---
 
 
