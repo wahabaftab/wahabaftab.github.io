@@ -13,7 +13,7 @@
 
   }
 
-.inner-page {font-size: 17px;} 
+.inner-page {font-size: 16px;} 
 
 html {
   @include fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size);
