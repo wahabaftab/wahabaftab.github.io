@@ -18,6 +18,8 @@ I have simply used linear regression for modelling as we had to predict continou
 
 
  This helps me and can help others in deciding what to watch next! You can check the code below!
+ 
+ 
 </div>
 <h4><b><a href="https://github.com/wahabaftab/IMDB-Rating-Prediction">Code</a></b></h4>
 
