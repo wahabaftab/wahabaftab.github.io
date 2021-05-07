@@ -5,9 +5,7 @@ excerpt: A Beginners project to predict your imdb ratings of upcoming or unseen 
 layout: inner_page
 
 ---
-<style>
-.inner-page {font-size: 17px;}
-</style>
+
 
 <!-- <img src="https://quizdoo.com/wp-content/uploads/2015/06/5574ade93e41c.jpg" class="center" width="400" height="400"> -->
 
