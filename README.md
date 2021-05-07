@@ -10,7 +10,7 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 ## Notable Changes
 I have made some changes from the repo I forked some of them are:
 * About me page was created
-* Another replica of post folder was added without collections i.e certifications which are shown in the certification page
+* Another replica of post folder was added which is not a collection, that folder is _certifications and is made to seperate project posts and certificate posts even tho layout of both pages is same
 * Blogs were added and modified such that they have external urls to medium site to view blogs.
 * Favicon image was added.
 * _Layout folder was added to edit previous layouts and add some new ones.
