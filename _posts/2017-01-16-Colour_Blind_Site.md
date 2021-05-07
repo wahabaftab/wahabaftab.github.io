@@ -20,7 +20,7 @@ The goal of this project was to facilitate users who suffer from colourblindness
 Upon research we got the figure that 8% males and 0.8 females are born colorblind.Some article’s directed us to information such as most colour blind people are able to see things as clearly as other people but they unable to fully ‘see’ red, green or blue light. [<a style="font-size: 10px" href="http://www.colourblindawareness.org">Source 1</a>,<a style="font-size: 10px" href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Source 2</a>]
 
 Further research and awareness articles concluded that there were 3 Types of colourblindness [<a style="font-size: 10px" href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">Source</a>].
-Details on the 3 Types of Colorblindness and their subtypes are given below:
+Details of the 3 Types of Colorblindness and their subtypes are given below:
 <ul>
 <b><li>Red-Green ColorBlindness</li></b>
   <ul>
@@ -41,8 +41,9 @@ Being an avid film lover, I do occasionally rate movies or shows on IMDB based o
 </p>
   
 <p class="inner-page">
-In this project I have presented a model which will decide for you whether you will like a movie or not based on your previous ratings.For this, I have extracted all the movies info I have rated on IMDB (IMDB provides a feature to download all rated movies info on the site in a csv). This became my dataset and after performing feature engineering, EDA and analysis. I have come up with a model trained on my previously rated films, which can predict what rating will I give to an unseen movie  based on its length, year of release, genre etc etc with great precision.
-I have simply used linear regression for modelling as we had to predict continous data and also because rating trend of one person arn't that complex. I have tested it on movies/shows which I then watched later and predicted rating was pretty similar to what I would have given it myself.
+Apart from research we really wanted to know what colourblind people want in a website.For this we conducted a survey with the said people using Google Forms.Brief Review of the response is given ahead:
+<h6>○	Have you ever used a blogging site? </h6>
+<img src="/images/color1.jpg" class="center" width="400" height="400">
 </p>
   
 <p class="inner-page">
