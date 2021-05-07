@@ -21,9 +21,9 @@ Details on the 3 Types of Colorblindness and their subtypes are:
 <b><li>Red-Green ColorBlindness</li></b>
   <ul>
     <li>Protanomaly: Red, orange, and yellow appear greener and colors are not as bright</li>
-    <li>Deuteranomaly: Yellow and green appear redder and it is difficult to tell violet from blue.<li>
+    <li>Deuteranomaly: Yellow and green appear redder and it is difficult to tell violet from blue.</li>
   </ul>
-<b><li>Blue-Yellow ColorBlindness<li></b>
+<b><li>Blue-Yellow ColorBlindness</li></b>
   <ul>
     <li>Tritanomaly: Blue appears greener and it can be difficult to tell yellow and red from pink.</li>
     <li>Tritanopia makes you unable to tell the difference between blue and green, purple and red, and yellow and pink.</li>
