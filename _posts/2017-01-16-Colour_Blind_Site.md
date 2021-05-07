@@ -9,6 +9,10 @@ image:
 ---
 <style>
 ul,li,p{font-size:16px;}  
+  
+img{    margin-left: auto;
+    margin-right: auto;
+    }
 </style>
 
 <!-- <img src="/images/color_blind.jpg" class="center" width="400" height="400"> -->
