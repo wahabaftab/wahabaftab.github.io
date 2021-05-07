@@ -14,6 +14,24 @@ image:
 Upon research we got the figure that 8% males and 0.8 females are born colorblind.Research article’s directed us to information such as most colour blind people are able to see things as clearly as other people but they unable to fully ‘see’ red, green or blue light. [<a style="font-size: 10px" href="http://www.colourblindawareness.org">Source 1</a>,<a style="font-size: 10px" href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Source 2</a>]
 </p>
 
+<p class="inner-page">
+From research and awareness articles, we found out that there were 3 Types of colourblindness [<a style="font-size: 10px" href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">Source</a>].>
+Details on the 3 Types of Colorblindness and their subtypes are:
+<ul>
+<li>Red-Green ColorBlindness</li>
+  <ul>
+    <li>Protanomaly: Red, orange, and yellow appear greener and colors are not as bright</li>
+    <li>Deuteranomaly: Yellow and green appear redder and it is difficult to tell violet from blue.<li>
+  </ul>
+<li>Blue-Yellow ColorBlindness<li>
+  <ul>
+    <li>Tritanomaly: Blue appears greener and it can be difficult to tell yellow and red from pink.</li>
+    <li>Tritanopia makes you unable to tell the difference between blue and green, purple and red, and yellow and pink.</li>
+  </ul>
+<li>Complete ColourBlindness</li>
+</ul>
+</p>
+
 <p>
 Being an avid film lover, I do occasionally rate movies or shows on IMDB based on my preference. Now, I know many people who do the same.Sometimes you need some assurance or a trusted review before deciding to put some time and effort into watching a certain movie. People always seem to watch movies recommended by someone As the most trust worthy person when it comes to movie recommendation is you yourself, So its better to watch something you know you will like based on your previous history.
 </p>
