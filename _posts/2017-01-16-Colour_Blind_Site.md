@@ -11,12 +11,12 @@ image:
 
 <!-- <img src="/images/color_blind.jpg" class="center" width="400" height="400"> -->
 <p class="inner-page">
-Upon research we got the figure that 8% males and 0.8 females are born colorblind.Research article’s directed us to information such as most colour blind people are able to see things as clearly as other people but they unable to fully ‘see’ red, green or blue light. [<a style="font-size: 10px" href="http://www.colourblindawareness.org">Source 1</a>,<a style="font-size: 10px" href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Source 2</a>]
+Upon research we got the figure that 8% males and 0.8 females are born colorblind.Some article’s directed us to information such as most colour blind people are able to see things as clearly as other people but they unable to fully ‘see’ red, green or blue light. [<a style="font-size: 10px" href="http://www.colourblindawareness.org">Source 1</a>,<a style="font-size: 10px" href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Source 2</a>]
 </p>
 
 <p class="inner-page">
-From research and awareness articles, we found out that there were 3 Types of colourblindness [<a style="font-size: 10px" href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">Source</a>].
-Details on the 3 Types of Colorblindness and their subtypes are:
+Further research and awareness articles concluded that there were 3 Types of colourblindness [<a style="font-size: 10px" href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">Source</a>].
+Details on the 3 Types of Colorblindness and their subtypes are given below:
 <ul>
 <b><li>Red-Green ColorBlindness</li></b>
   <ul>
