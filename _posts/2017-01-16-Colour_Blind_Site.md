@@ -10,6 +10,13 @@ image:
 
 
 <!-- <img src="/images/color_blind.jpg" class="center" width="400" height="400"> -->
+
+<p class="inner-page">
+<h4>Team members:</h4> <i>Wahab Aftab, Zain Abbas, Saad Raza</i>
+</p>
+<p class="inner-page">
+The goal of this project was to facilitate users who suffer from colourblindness to read blogs as normal users.
+</p>
 <p class="inner-page">
 Upon research we got the figure that 8% males and 0.8 females are born colorblind.Some article’s directed us to information such as most colour blind people are able to see things as clearly as other people but they unable to fully ‘see’ red, green or blue light. [<a style="font-size: 10px" href="http://www.colourblindawareness.org">Source 1</a>,<a style="font-size: 10px" href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Source 2</a>]
 
