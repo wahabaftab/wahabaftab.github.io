@@ -8,7 +8,7 @@ image:
 
 ---
 <style>
-ul,li{font-size:16px;}  
+ul,li,p{font-size:16px;}  
 </style>
 
 <!-- <img src="/images/color_blind.jpg" class="center" width="400" height="400"> -->
