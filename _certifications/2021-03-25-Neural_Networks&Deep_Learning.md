@@ -1,5 +1,5 @@
 ---
-title: SQL & Relational Databases 101
+title: Neural Networks and Deep Learning
 tags: certificate
 link: https://www.coursera.org/account/accomplishments/certificate/LSZPNQNBT8TU
 ---
