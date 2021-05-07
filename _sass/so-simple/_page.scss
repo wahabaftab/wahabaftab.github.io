@@ -220,7 +220,8 @@
   }
 }
 
-.layout--post {
+.layout--post,
+.layout--categories, {
   .page-wrapper {
     @include breakpoint($large) {
       display: grid;
@@ -265,7 +266,7 @@
   .page-content {
     @include breakpoint($large) {
       float: right; // display: grid fallback
-      width: 78%; // display: grid fallback
+      width: 50%; // display: grid fallback
       min-width: 0;
     }
 
