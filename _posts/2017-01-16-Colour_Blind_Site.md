@@ -18,17 +18,17 @@ Upon research we got the figure that 8% males and 0.8 females are born colorblin
 From research and awareness articles, we found out that there were 3 Types of colourblindness [<a style="font-size: 10px" href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">Source</a>].
 Details on the 3 Types of Colorblindness and their subtypes are:
 <ul>
-<li>Red-Green ColorBlindness</li>
+<b><li>Red-Green ColorBlindness</li></b>
   <ul>
     <li>Protanomaly: Red, orange, and yellow appear greener and colors are not as bright</li>
     <li>Deuteranomaly: Yellow and green appear redder and it is difficult to tell violet from blue.<li>
   </ul>
-<li>Blue-Yellow ColorBlindness<li>
+<b><li>Blue-Yellow ColorBlindness<li></b>
   <ul>
     <li>Tritanomaly: Blue appears greener and it can be difficult to tell yellow and red from pink.</li>
     <li>Tritanopia makes you unable to tell the difference between blue and green, purple and red, and yellow and pink.</li>
   </ul>
-<li>Complete ColourBlindness</li>
+<b><li>Complete ColourBlindness</li></b>
 </ul>
 </p>
 
