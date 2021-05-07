@@ -112,7 +112,11 @@ defaults:
 #       entries_layout: list
 #       comments: true
 #       share: true
-
+# Site Author
+author:
+  name: Wahab Aftab, Data Scientist
+  picture: /images/Personal_Picture.jpg
+  email: s.wahabaftab@gmail.com
 
 
 
