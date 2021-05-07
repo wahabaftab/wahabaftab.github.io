@@ -16,8 +16,7 @@ image:
 </p>
 <p class="inner-page">
 The goal of this project was to facilitate users who suffer from colourblindness to read blogs as normal users.
-</p>
-<p class="inner-page">
+  
 Upon research we got the figure that 8% males and 0.8 females are born colorblind.Some article’s directed us to information such as most colour blind people are able to see things as clearly as other people but they unable to fully ‘see’ red, green or blue light. [<a style="font-size: 10px" href="http://www.colourblindawareness.org">Source 1</a>,<a style="font-size: 10px" href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Source 2</a>]
 
 Further research and awareness articles concluded that there were 3 Types of colourblindness [<a style="font-size: 10px" href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">Source</a>].
