@@ -44,7 +44,7 @@ Being an avid film lover, I do occasionally rate movies or shows on IMDB based o
   
 <p class="inner-page">
 Apart from research we really wanted to know what colourblind people want in a website.For this we conducted a survey with the said people using Google Forms.Brief Review of the response is given ahead:
-<p class="inner-page">○	Have you ever used a blogging site? </p>
+<p class="inner-page">Have you ever used a blogging site? </p>
 <img src="/images/color1.jpg" class="center" width="400" height="400">
 </p>
   
