@@ -78,7 +78,8 @@ defaults:
       layout: post
       comments: false
       share: false
-  # Resource defaults
+      
+  # Certifications defaults
   - scope:
       path: "_certifications"
     values:
@@ -86,6 +87,8 @@ defaults:
       entries_layout: list
       comments: false
       share: false
+      
+  # Blogs defaults      
   - scope:
       path: "_blogs"
     values:
@@ -93,29 +96,11 @@ defaults:
       entries_layout: list
       comments: false
       share: false
-   # Post defaults
-
-#   # Collab defaults
-#   - scope:
-#       path: "_collab"
-#     values:
-#       layout: collection
-#       entries_layout: grid
-#       comments: true
-#       share: true
-  # Consult defaults
-  # Diffract defaults
-#   - scope:
-#       path: "_diffract"
-#     values:
-#       layout: collection
-#       entries_layout: list
-#       comments: true
-#       share: true
+ 
 # Site Author
 author:
-  name: Wahab Aftab, Data Scientist
-  picture: /images/Personal_Picture.jpg
+  name: Wahab Aftab
+  picture: /images/Wahab.jpg
   email: s.wahabaftab@gmail.com
 
 
