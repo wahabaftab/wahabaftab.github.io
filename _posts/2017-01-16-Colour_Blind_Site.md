@@ -14,8 +14,8 @@ img{
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 60%;
-max-height: 60%;
+max-width: 50%;
+max-height: 50%;
     }
 </style>
 
