@@ -72,15 +72,18 @@ Apart from research we really wanted to know what colourblind people want in a w
 
 <p class="inner-page">
 Based on the research and survey, our main focus was to make a good, clean, appealing design and make the site easy to navigate, traverse and use.
-The site is constructed  with specific patterns, symbols and strokes which will help people in using the site without having any issues in perceiving and understanding the elements on the site. Hence this site will give people a chance to navigate and explore our website and take full advantage of it’s features without being hampered by their disability.
+The site is constructed  with specific patterns, symbols and strokes which will help people in using the site without having any issues in perceiving and understanding the elements on the site.
 </p>
 
 <p class="inner-page">
-Our blog feature the options for users to read blogs, review and rate them, comment on them and share. It will also let the user search for blogs and have categories to make the user find blogs he’s interested in. The user can also log in, write a blog and have it posted.
+Our blog features the options for users to read blogs, review and rate them, comment on them and share. It also lets the user search for blogs and make categories to help the user find blogs he’s interested in. The user can also log in, write a blog and have it posted.
 </p>
 
+<p class="inner-page">
+This helps me and can help others in deciding what to watch next! You can check the code below!
+</p>
+ 
 <h4><b><a href="https://github.com/wahabaftab/IMDB-Rating-Prediction">Code</a></b></h4>
-
 
 
 
