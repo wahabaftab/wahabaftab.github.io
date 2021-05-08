@@ -59,10 +59,13 @@ Apart from research we really wanted to know what colourblind people want in a w
 </p>
 <p class="inner-page">Have you ever used a blogging site? </p>
 <img  src="/images/color1.jpg" >
-<p class="inner-page">What area should be most important for such site? </p>
-<img class='bar' src="/images/color2.jpg" >
-<p class="inner-page">Do you want a site designed designed with steps taken to make it accessible and usable by colorblind people? </p>
+
+<p class="inner-page">Do you want a site designed with steps taken to make it accessible and usable by colorblind people? </p>
 <img src="/images/color4.jpg"  >
+
+<p class="inner-page">Which area should be given most importance for such a site? </p>
+<img class='bar' src="/images/color2.jpg" >
+
 
  
 <h4><b><a href="https://github.com/wahabaftab/IMDB-Rating-Prediction">Code</a></b></h4>
