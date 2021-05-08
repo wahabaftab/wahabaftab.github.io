@@ -14,8 +14,12 @@ img{
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 50%;
-max-height: 50%;
+max-width: 30%;
+max-height: 30%;
+    }
+.bar{     
+max-width: 60%;
+max-height: 60%;
     }
 </style>
 
@@ -54,7 +58,7 @@ Being an avid film lover, I do occasionally rate movies or shows on IMDB based o
 Apart from research we really wanted to know what colourblind people want in a website.For this we conducted a survey with the said people using Google Forms.Few examples of responses are given ahead:
 </p>
 <p class="inner-page">Have you ever used a blogging site? </p>
-<img src="/images/color1.jpg" >
+<img class='bar' src="/images/color1.jpg" >
 <p class="inner-page">What area should be most important for such site? </p>
 <img src="/images/color2.jpg" >
 <p class="inner-page">Do you want a site designed designed with steps taken to make it accessible and usable by colorblind people? </p>
