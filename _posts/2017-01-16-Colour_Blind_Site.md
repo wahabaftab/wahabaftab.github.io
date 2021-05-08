@@ -56,7 +56,7 @@ Apart from research we really wanted to know what colourblind people want in a w
 <p class="inner-page">Have you ever used a blogging site? </p>
 <img src="/images/color1.jpg" style="height:100%;width:100%">
 <p class="inner-page">What area should be most important for such site? </p>
-<img src="/images/color2.jpg"  style="height:100%;width:100%">
+<img src="/images/color2.jpg"  style="height:150%;width:150%">
 <p class="inner-page">Do you want a site designed designed with steps taken to make it accessible and usable by colorblind people? </p>
 <img src="/images/color4.jpg"  style="height:100%;width:100%">
 <p class="inner-page">Do you want a site designed designed with steps taken to make it accessible and usable by colorblind people? </p>
