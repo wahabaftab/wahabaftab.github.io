@@ -53,20 +53,15 @@ Being an avid film lover, I do occasionally rate movies or shows on IMDB based o
 <p class="inner-page">
 Apart from research we really wanted to know what colourblind people want in a website.For this we conducted a survey with the said people using Google Forms.Brief Review of the response is given ahead:
 <p class="inner-page">Have you ever used a blogging site? </p>
-<img src="/images/color1.jpg" width="400" height="400">
-</p>
+<img src="/images/color1.jpg" width="500" height="500">
 <p class="inner-page">What area should be most important for such site? </p>
-<img src="/images/color2.jpg" width="400" height="400">
-</p>
+<img src="/images/color2.jpg" width="500" height="700">
 <p class="inner-page">Do you want a site designed designed with steps taken to make it accessible and usable by colorblind people? </p>
-<img src="/images/color4.jpg" width="400" height="400">
-</p>
+<img src="/images/color4.jpg" width="500" height="500">
 <p class="inner-page">Do you want a site designed designed with steps taken to make it accessible and usable by colorblind people? </p>
-<img src="/images/color4.jpg" width="400" height="400">
-</p>  
-<p class="inner-page">
-This helps me and can help others in deciding what to watch next! You can check the code below!
+<img src="/images/color4.jpg" width="500" height="500">
 </p>
+
  
 <h4><b><a href="https://github.com/wahabaftab/IMDB-Rating-Prediction">Code</a></b></h4>
 
