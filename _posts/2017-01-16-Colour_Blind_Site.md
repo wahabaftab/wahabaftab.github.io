@@ -14,8 +14,8 @@ img{
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 220px;
-max-height: 230px;
+max-width: 100%;
+max-height: 100%;
     }
 </style>
 
@@ -56,7 +56,7 @@ Apart from research we really wanted to know what colourblind people want in a w
 <p class="inner-page">Have you ever used a blogging site? </p>
 <img src="/images/color1.jpg" >
 <p class="inner-page">What area should be most important for such site? </p>
-<img src="/images/color8.jpg" >
+<img src="/images/color2.jpg" >
 <p class="inner-page">Do you want a site designed designed with steps taken to make it accessible and usable by colorblind people? </p>
 <img src="/images/color4.jpg"  >
 
