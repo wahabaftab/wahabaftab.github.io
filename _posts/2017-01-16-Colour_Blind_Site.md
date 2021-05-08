@@ -77,7 +77,7 @@ Our blog features the options for users to read blogs, review and rate them, com
 </p>
 
 <p class="inner-page">
-This helps me and can help others in deciding what to watch next! You can check the code below!
+You can check the code below!
 </p>
  
 <h4><b><a href="https://github.com/wahabaftab/Blogging-Site-for-ColourBlind">Code</a></b></h4>
