@@ -63,7 +63,7 @@ The encoding is spread over the image by modifying each byte's LSB. This means t
 You can check the code and Report below!
 </p>
  
-<h4><b><a href="https://github.com/wahabaftab/HTTP-Server-using-Steganography">Code</a><a href="/Documents/Project_Report_Steganography.pdf">Report</a></b></h4>
+<h4><b><a href="https://github.com/wahabaftab/HTTP-Server-using-Steganography">Code</a>    <a href="/Documents/Project_Report_Steganography.pdf">Report</a></b></h4>
 
 
 
