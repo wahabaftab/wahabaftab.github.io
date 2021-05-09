@@ -25,7 +25,12 @@ max-height: 50%;
 </p>
 <p class="inner-page">
 
-In this Project we built a secure HTTP server that is able to serve web clients with secure contents. The server encodes the data requested by the client which the client can decode upon receiving. Assume that the server has 10 different text files numbered file1.txt to file10.txt as well as 5 different PNG images all located in the current directory. The server will parse the client request and if it has the requested text file then it randomly selects one of the five images and then encodes the text file inside the image file. It then transfers the image file back to the client, Thus keeping the content of the text file secure.The client on receipt of the encoded image file, runs the decoder and extracts the original .txt file from the image. The server uses basic Image <b>Steganography</b> for encoding the text file inside the image.
+In this Project we built a secure HTTP server that is able to serve web clients with secure contents. The server encodes the data requested by the client which the client can decode upon receiving. 
+
+</p>
+
+<p class="inner-page">
+Assume that the server has 10 different text files numbered file1.txt to file10.txt as well as 5 different PNG images all located in the current directory. The server will parse the client request and if it has the requested text file then it randomly selects one of the five images and then encodes the text file inside the image file. It then transfers the image file back to the client, Thus keeping the content of the text file secure.The client on receipt of the encoded image file, runs the decoder and extracts the original .txt file from the image. The server uses basic Image <b>Steganography</b> for encoding the text file inside the image.
 </p>
 
 <p class="inner-page">
