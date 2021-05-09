@@ -25,7 +25,7 @@ max-height: 60%;
 <!-- <img src="/images/color_blind.jpg" class="center" width="400" height="400"> -->
 
 <p class="inner-page">
-<h4 style="display: inline;">Team members: <i style="font-size: 16px;">Wahab Aftab, Zain Abbas, Saad Raza</i></h4>
+<h4 style="display: inline;">Team members: <i style="font-size: 16px;">Wahab Aftab, Ibrahim Usmani, Asfa Mumtaz</i></h4>
 </p>
 <p class="inner-page">
 The goal of this project was to facilitate users who suffer from colourblindness to read blogs as normal users.
