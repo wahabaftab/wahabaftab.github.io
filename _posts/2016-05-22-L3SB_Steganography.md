@@ -13,12 +13,8 @@ img{
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 30%;
-max-height: 30%;
-    }
-.bar{     
-max-width: 60%;
-max-height: 60%;
+max-width: 50%;
+max-height: 50%;
     }
 </style>
 
@@ -28,52 +24,32 @@ max-height: 60%;
 <h4 style="display: inline;">Team members: <i style="font-size: 16px;">Wahab Aftab, Ibrahim Usmani, Asfa Mumtaz</i></h4>
 </p>
 <p class="inner-page">
-The goal of this project was to facilitate users who suffer from colourblindness to read blogs as normal users.
-  
-Upon research we got the figure that 8% males and 0.8 females are born colorblind.Some article’s directed us to information such as most colour blind people are able to see things as clearly as other people but they unable to fully ‘see’ red, green or blue light. [<a style="font-size: 10px" href="http://www.colourblindawareness.org">Source 1</a>,<a style="font-size: 10px" href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Source 2</a>]
 
-Further research and awareness articles concluded that there were 3 Types of colourblindness [<a style="font-size: 10px" href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">Source</a>].
-Details of the 3 Types of Colorblindness and their subtypes are given below:
-<ul>
-<b><li>Red-Green ColorBlindness</li></b>
-  <ul>
-    <li>Protanomaly: Red, orange, and yellow appear greener and colors are not as bright</li>
-    <li>Deuteranomaly: Yellow and green appear redder and it is difficult to tell violet from blue.</li>
-  </ul>
-<b><li>Blue-Yellow ColorBlindness</li></b>
-  <ul>
-    <li>Tritanomaly: Blue appears greener and it can be difficult to tell yellow and red from pink.</li>
-    <li>Tritanopia makes you unable to tell the difference between blue and green, purple and red, and yellow and pink.</li>
-  </ul>
-<b><li>Complete ColourBlindness</li></b>
-</ul>
+In this Project we built a secure HTTP server that is able to serve web clients with secure contents. Assume that the server has 10 different text files numbered file1.txt to file10.txt as well as 5 different PNG images all located in the current directory. The server will parse the client request and if it has the requested text file then it randomly selects one of the five images and then encodes the text file inside the image file. It then transfers the image file back to the client, Thus keeping the content of the text file secure.The client on receipt of the encoded image file, runs the decoder and extracts the original .txt file from the image. This server listens on post 55555 on localhost and uses basic Image **steganography** for encoding the text file inside the image.
+
+The simplest form of digital steganography is the Least Significant Bit (LSB) method, where the binary representation of the data that's to be hidden is written into the LSB of the pixel data produced from the image file. Suppose we have 8 bits representing each of the three RGB color values (red, green, and blue) at each pixel. If we consider just the blue there will be 2^8 different values of blue. The difference between 11111111 and 11111110 in the value for blue intensity is likely to be undetectable by the human eye. Therefore, the least significant bit can be altered (more or less undetectably). If we do it with the green and the red as well, we can get one letter of ASCII text for every three pixels. In this project, we will employ 24-bit PNG images, which use a byte each for the red (R), green (G), and blue (B) channels. Detailed explanation of the process is given below:
+
 </p>
 
 
 <p class="inner-page">
   
-<p class="inner-page">
-Apart from research we really wanted to know what colourblind people want in a website. For this we conducted a survey with the said people using Google Forms. Few examples of responses are given ahead:
-</p>
-<p class="inner-page">Have you ever used a blogging site? </p>
-<img  src="/images/color1.jpg" >
 
-<p class="inner-page">Do you want a site designed with steps taken to make it accessible and usable by colorblind people? </p>
-<img src="/images/color4.jpg"  >
+<p class="inner-page">Figure 1 shows the first stage of the process, when the image data is accessed as a series of bytes. </p>
+<img  src="/images/steganography1.jpg" >
 
-<p class="inner-page">Which area should be given most importance for such a site? </p>
-<img class='bar' src="/images/color2.jpg" >
+<p class="inner-page">Figure 2 shows the ASCII character representation in terms of byte/bits. </p>
+<img src="/images/steganography2.jpg"  >
+
+<p class="inner-page">Next you have to insert the bits of the text file into the image. The LSB approach only modifies the least significant bit of each image byte, as illustrated by Figure 3.</p>
+<img src="/images/steganography3.jpg" >
 
 </p>
 
 <p class="inner-page">
-Based on the research and survey, our main focus was to make a good, clean, appealing design and make the site easy to navigate, traverse and use.
-The site is constructed  with specific patterns, symbols and strokes which will help people in using the site without having any issues in perceiving and understanding its elements.
+The encoding is spread over the image by modifying each byte's LSB. This means that 1 byte of text data requires the modification of 8 bytes of the image (i.e. 1 data bit is stored in 1 image byte). Since this would require very large image files, we modified the method to use least 3 bits instead of one for encoding to achieve better storage.In this way we can store more text in smaller images and upon testing we found out that this method has made no significant/visible changes in our image quality.
 </p>
 
-<p class="inner-page">
-Our blog features the options for users to read blogs, review and rate them, comment on them and share. It also lets the user search for blogs and make categories to help the user find blogs he’s interested in. The user can also log in, write a blog and have it posted.
-</p>
 
 <p class="inner-page">
 You can check the code below!
