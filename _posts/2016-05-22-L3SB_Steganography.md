@@ -1,8 +1,8 @@
 ---
-title: "Least 3 Bits Steganography"
+title: "Secure HTTP Server using Steganography"
 layout: inner_page
 last_modified_at:
-excerpt: A client server networking model made with Python networking sockets to implement Least 3 Bits Steganography.
+excerpt: An HTTP secure client server networking model made with Python networking sockets to implement Least 3 Bits Steganography.
 
 
 ---
