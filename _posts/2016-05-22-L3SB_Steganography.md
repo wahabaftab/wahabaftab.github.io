@@ -2,7 +2,7 @@
 title: "Secure HTTP Server using Steganography"
 layout: inner_page
 last_modified_at:
-excerpt: An HTTP secure client server networking model made with Python networking sockets to implement Least 3 Bits Steganography.
+excerpt: An HTTP secure client server model made with Python networking sockets using Least 3 Bits Steganography.
 
 
 ---
