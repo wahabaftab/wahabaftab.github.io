@@ -60,10 +60,11 @@ The encoding is spread over the image by modifying each byte's LSB. This means t
 
 
 <p class="inner-page">
-You can check the code below!
+You can check the code and Report below!
 </p>
  
-<h4><b><a href="https://github.com/wahabaftab/Blogging-Site-for-ColourBlind">Code</a></b></h4>
+<h4><b><a href="https://github.com/wahabaftab/HTTP-Server-using-Steganography">Code</a></b></h4><h4><b><a href="https://github.com/wahabaftab/HTTP-Server-using-Steganography">Report</a></b></h4>
+
 
 
 
