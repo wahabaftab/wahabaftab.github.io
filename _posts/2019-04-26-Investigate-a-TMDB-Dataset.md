@@ -1,7 +1,7 @@
 ---
-title: "IMDB Movie Rating Prediction"
+title: "TMDB Dataset Investigation and Analysis"
 last_modified_at:
-excerpt: I performed Data Wrangling and Exploratory Data Analysis on TMDB dataset and shared some insights.  
+excerpt: I performed Data Wrangling and Exploratory Data Analysis on TMDB dataset and shared some insights as part of Udacity Data Analyst Nanodegree.  
 
 layout: inner_page
 ---
