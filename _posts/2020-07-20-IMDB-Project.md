@@ -4,6 +4,10 @@ last_modified_at:
 excerpt: I developed a beginner level regression model which uses your IMDB rated movies/shows to predict your ratings of upcoming or unseen movies.
 layout: inner_page
 ---
+<style>
+ul,li,p{font-size:16px;}  
+
+</style>
 
 
 <!-- <img src="https://quizdoo.com/wp-content/uploads/2015/06/5574ade93e41c.jpg" class="center" width="400" height="400"> -->
