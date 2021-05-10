@@ -2,7 +2,7 @@
 title: "Secure HTTP Server using Steganography"
 layout: inner_page
 last_modified_at:
-excerpt: An HTTP server using Least 3 Bits Steganography to serve web clients with secure contents.
+excerpt: We used python sockets to develop an HTTP server that implements Least 3 Bits Steganography to serve web clients with secure contents.
 
 
 ---
@@ -25,7 +25,7 @@ max-height: 50%;
 </p>
 <p class="inner-page">
 
-In this Project we used python socket programming to implement a client-server model. We built a secure HTTP server that is able to serve web clients with secure contents. The server encodes the data requested by the client which the client can decode upon receiving.
+In this Project we built a secure HTTP server that is able to serve web clients with secure contents. The server encodes the data requested by the client which the client can decode upon receiving.
 
 </p>
 
