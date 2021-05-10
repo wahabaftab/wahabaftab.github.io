@@ -20,45 +20,54 @@ I completed this project as part of Udacity's Nanodegree progam, I was given a t
   
 As already mentioned, this project consists of two main parts i.e Data Wrangling and Exploratory Data Analysis. I'll breifly mention both of them here but you can find the detailed version in the repo link below.
 
-### Data Wrangling:
+<h3> Data Wrangling: </h3>
 
 I performed several steps to clean the dataset and convert/transform it into usable format.Following steps were taken in data wrangling process:
 
-1) Dropping Columns with high percentage of null values
+<ul>
+  
+<li> Dropping Columns with high percentage of null values. </li>
 
-2) Dropping Rows of null values where percentage was low
+<li> Dropping Rows of null values where percentage was low. </li>
 
-3) Replacing Zero values with mean where zero values were large
+<li> Replacing Zero values with mean where zero values were large. </li>
 
-4) Dropping Zero values where zero values were low
+<li> Dropping Zero values where zero values were low. </li>
 
-5) Dropping Duplicates
+<li> Dropping Duplicates. </li>
 
-6) Dropping redundant columns
+<li> Dropping redundant columns. </li>
+  
+</ul>
+
 </p>
 
 
 <p class="inner-page">
   
-### Exploratory Data Analysis:  
+<h3> Exploratory Data Analysis:  </h3>
 In this phase I explored the dataset and asked questions about the characteristics of the data and their visualizations. Following were the questions which were asked and analyzed:
 
-Q1) How has the popularity and vote count increased in the last few decades.
-
-Q2) Which decade was the most successful monetarily?
-
-Q3) What are the most popular genres and keywords of the last decade
-
-Q4) Which director and actor/actress has been the most successful?
-
-Q5) What is the ratio of movies and tv-series in the dataset ? How to differentiate.
+<ul>
   
+<li> How has the popularity and vote count increased in the last few decades? </li>
+
+<li> Which decade was the most successful monetarily? </li>
+
+<li> What are the most popular genres and keywords of the last decade? </li>
+
+<li> Which director and actor/actress has been the most successful? </li>
+
+<li> What is the ratio of movies and tv-series in the dataset ? How to differentiate? </li>
+  
+</ul>  
+
 </p>  
 
 
 <p class="inner-page">
   
-### Conclusion:
+<h3> Conclusion: </h3>
 
 All the data wrangling steps were performed after detailed analysis and decisions were made after seeing all the feasible options. In the EDA phase all the questions were analyzed and insights were gathered after visual plotting and statistical analysis. You can check the repo link below to find the code along with the dataset and report.
 
