@@ -1,7 +1,7 @@
 ---
 title: "IMDB Movie Rating Prediction"
 last_modified_at:
-excerpt: I developed a beginner level regression model which uses your rated IMDB movies/shows to predict your ratings of upcoming or unseen movies.
+excerpt: I developed a beginner level regression model which uses your IMDB rated movies/shows to predict your ratings of upcoming or unseen movies.
 layout: inner_page
 ---
 
