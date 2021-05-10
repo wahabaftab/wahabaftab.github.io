@@ -12,22 +12,60 @@ ul,li,p{font-size:16px;}
 
 
 <p class="inner-page">
-I completed this project as part of Udacity's Nanodegree progam, in this project I was given a task to choose a dataset and perform data wrangling and EDA techniques. For this task I chose The Movie Dataset which contains information about 10,000 movies,short films and tv series of the last 50+ years collected from The Movie Database (TMDb), including user ratings, revenue, runtime and budget. You can find the dataset in the code link given at the end.
+I completed this project as part of Udacity's Nanodegree progam, I was given a task to choose a dataset and perform data wrangling and EDA techniques on the chosen dataset. For this task I chose The Movie Dataset which contains information about 10,000 movies,short films and tv series of the last 50+ years collected from The Movie Database (TMDb), including user ratings, revenue, runtime and budget. You can find the dataset in the link given at the end.
 
 </p>
   
 <p class="inner-page">
   
-ThE  
-In this project I have presented a model which will decide for you whether you will like a movie or not based on your previous ratings.For this, I have extracted all the movies info I have rated on IMDB (IMDB provides a feature to download all rated movies info on the site in a csv). This became my dataset and after performing feature engineering, EDA and analysis. I have come up with a model trained on my previously rated films, which can predict what rating will I give to an unseen movie  based on its length, year of release, genre etc etc with great precision.
-I have simply used linear regression for modelling as we had to predict continous data and also because rating trend of one person arn't that complex. I have tested it on movies/shows which I then watched later and predicted rating was pretty similar to what I would have given it myself.
+As already mentioned, this project consists of two main parts i.e Data Wrangling and Exploratory Data Analysis. I'll breifly mention both of them here but you can find the detailed version in the repo link below.
+
+### Data Wrangling:
+
+I performed several steps to clean the dataset and convert/transform it into usable format.Following steps were taken in data wrangling process:
+
+1) Dropping Columns with high percentage of null values
+
+2) Dropping Rows of null values where percentage was low
+
+3) Replacing Zero values with mean where zero values were large
+
+4) Dropping Zero values where zero values were low
+
+5) Dropping Duplicates
+
+6) Dropping redundant columns
 </p>
-  
+
+
 <p class="inner-page">
-This helps me and can help others in deciding what to watch next! You can check the code below!
-</p>
+  
+### Exploratory Data Analysis:  
+In this phase I explored the dataset and asked questions about the characteristics of the data and their visualizations. Following were the questions which were asked and analyzed:
+
+Q1) How has the popularity and vote count increased in the last few decades.
+
+Q2) Which decade was the most successful monetarily?
+
+Q3) What are the most popular genres and keywords of the last decade
+
+Q4) Which director and actor/actress has been the most successful?
+
+Q5) What is the ratio of movies and tv-series in the dataset ? How to differentiate.
+  
+</p>  
+
+
+<p class="inner-page">
+  
+### Conclusion:
+
+All the data wrangling steps were performed after detailed analysis and decisions were made after seeing all the feasible options. In the EDA phase all the questions were analyzed and insights were gathered after visual plotting and statistical analysis. You can check the repo link below to find the code along with the dataset and report.
+
+</p> 
+
  
-<h4><b><a href="https://github.com/wahabaftab/IMDB-Rating-Prediction">Code</a></b></h4>
+<h4><b><a href="https://github.com/wahabaftab/Dataset-Analysis-and-Investigation">Github Repo</a></b></h4>
 
 
 
