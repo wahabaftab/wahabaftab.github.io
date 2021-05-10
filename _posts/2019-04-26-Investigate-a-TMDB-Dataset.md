@@ -1,7 +1,7 @@
 ---
 title: "TMDB Dataset Investigation and Analysis"
 last_modified_at:
-excerpt: I performed Data Wrangling and Exploratory Data Analysis on TMDB dataset and shared some insights as part of Udacity Data Analyst Nanodegree.  
+excerpt: I performed Data Wrangling and Exploratory Data Analysis on TMDB dataset and shared some insights as part of Udacity's Data Analyst Nanodegree.  
 
 layout: inner_page
 ---
@@ -12,10 +12,13 @@ ul,li,p{font-size:16px;}
 
 
 <p class="inner-page">
-Being an avid film lover, I do occasionally rate movies or shows on IMDB based on my preference. Now, I know many people who do the same.Sometimes you need some assurance or a trusted review before deciding to put some time and effort into watching a certain movie. People always seem to watch movies recommended by someone As the most trust worthy person when it comes to movie recommendation is you yourself, So its better to watch something you know you will like based on your previous history.
+I completed this project as part of Udacity's Nanodegree progam, in this project I was given a task to choose a dataset and perform data wrangling and EDA techniques. For this task I chose The Movie Dataset which contains information about 10,000 movies,short films and tv series of the last 50+ years collected from The Movie Database (TMDb), including user ratings, revenue, runtime and budget. You can find the dataset in the code link given at the end.
+
 </p>
   
 <p class="inner-page">
+  
+ThE  
 In this project I have presented a model which will decide for you whether you will like a movie or not based on your previous ratings.For this, I have extracted all the movies info I have rated on IMDB (IMDB provides a feature to download all rated movies info on the site in a csv). This became my dataset and after performing feature engineering, EDA and analysis. I have come up with a model trained on my previously rated films, which can predict what rating will I give to an unseen movie  based on its length, year of release, genre etc etc with great precision.
 I have simply used linear regression for modelling as we had to predict continous data and also because rating trend of one person arn't that complex. I have tested it on movies/shows which I then watched later and predicted rating was pretty similar to what I would have given it myself.
 </p>
