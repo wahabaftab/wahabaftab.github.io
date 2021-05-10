@@ -46,6 +46,7 @@ I performed several steps to clean the dataset and convert/transform it into usa
 <p class="inner-page">
   
 <h3> Exploratory Data Analysis:  </h3>
+
 In this phase I explored the dataset and asked questions about the characteristics of the data and their visualizations. Following were the questions which were asked and analyzed:
 
 <ul>
