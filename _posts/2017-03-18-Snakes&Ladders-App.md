@@ -9,9 +9,11 @@ layout: inner_page
 ul,li,p{font-size:16px;}  
 
 img{   
+display:block
 max-width: 20%;
 max-height: 20%;
     }
+    
 </style>
 
 <p class="inner-page">
