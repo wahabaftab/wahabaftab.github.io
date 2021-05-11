@@ -9,7 +9,8 @@ layout: inner_page
 ul,li,p{font-size:16px;}  
 
 </style>
-img{     
+img{   
+display: block;
 max-width: 20%;
 max-height: 20%;
     }
