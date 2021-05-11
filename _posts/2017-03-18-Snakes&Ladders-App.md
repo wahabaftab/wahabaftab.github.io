@@ -27,7 +27,7 @@ ul,li,p{font-size:16px;}
 </style>
 
 <p class="inner-page">
-I made an android app for self learning, the app is a simple snakes and ladders game made in Android Studio. The game lets the user play against an AI where both the players take turns. First player to reach the 100 mark will be declared the winner and a prompt will be shown. The game also has an instruction guide and a splash screen along with customized buttons and pictures. You can find sample screenshots below.
+I made an android app for self learning, the app is a simple snakes and ladders game made in Android Studio. The game lets the user play against an AI where both the players take turns. First player to reach the 100 mark will be declared the winner and a prompt will be shown. The game also has an instruction guide and a splash screen along with customized buttons and pictures. You can find sample screenshots below and project code and detailed explanation can be found on the link given at the end.
 </p>
 
 
@@ -55,7 +55,7 @@ I made an android app for self learning, the app is a simple snakes and ladders 
   </div>
 </div>
 
-<p class="inner-page">Following link has the entire Android Studio Project along with detailed description and approach: </p>
+<p></p>
 <h4><b><a href="https://github.com/wahabaftab/Snakes-And-Ladders">Github Repo</a></b></h4>
 
 
