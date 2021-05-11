@@ -55,7 +55,8 @@ I made an android app for self learning, the app is a simple snakes and ladders 
   </div>
 </div>
 
-<p></p>
+<p class="inner-page">
+</p>
 <h4><b><a href="https://github.com/wahabaftab/Snakes-And-Ladders">Github Repo</a></b></h4>
 
 
