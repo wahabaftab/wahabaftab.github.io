@@ -55,7 +55,7 @@ I made an android app for self learning, the app is a simple snakes and ladders 
   </div>
 </div>
 
-<p class="inner-page">Following Link has the entier Android Studio Project along with detailed description and approach: </p>
+<p class="inner-page">Following link has the entire Android Studio Project along with detailed description and approach: </p>
 <h4><b><a href="https://github.com/wahabaftab/Snakes-And-Ladders">Github Repo</a></b></h4>
 
 
