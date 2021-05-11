@@ -10,8 +10,8 @@ ul,li,p{font-size:16px;}
 
 </style>
 img{     
-max-width: 50%;
-max-height: 50%;
+max-width: 20%;
+max-height: 20%;
     }
 
 <p class="inner-page">
