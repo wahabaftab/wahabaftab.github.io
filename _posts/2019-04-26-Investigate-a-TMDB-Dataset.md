@@ -29,8 +29,6 @@ As already mentioned, this project consists of two main parts i.e Data Wrangling
 
 I performed several steps to clean the dataset and convert/transform it into usable format.Following steps were taken in data wrangling process:
 
-</p>
-
 <ul>
   
 <li> Dropping Columns with high percentage of null values. </li>
