@@ -8,10 +8,12 @@ layout: inner_page
 <style>
 ul,li,p{font-size:16px;}  
 
-img{   
-display:block
-max-width: 20%;
-max-height: 20%;
+img{     
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 30%;
+max-height: 30%;
     }
     
 </style>
