@@ -119,34 +119,34 @@ Values of k, R and window size can be changed to achieve best results depending 
 <div class="row">
   <div class="column">
     <img src="/images/original1.jpg"  style="width:100%">
-    <figcaption>Original Image</figcaption>
+    <figcaption><b>Original Image</b></figcaption>
 
   </div>
   <div class="column">
     <img src="/images/otsu1.jpg"  style="width:100%">
-    <figcaption>Otsu Result</figcaption>
+    <figcaption><b>Otsu Result</b></figcaption>
 
   </div>
   <div class="column">
     <img src="/images/sauvola1.jpg" style="width:100%">
-    <figcaption>Our Result</figcaption>
+    <figcaption><b>Our Result</b></figcaption>
 
 </div>
 
 <div class="row">
   <div class="column">
     <img src="/images/original2.jpg"  style="width:100%">
-    <figcaption>Original Image</figcaption>
+    <figcaption><b>Original Image</b></figcaption>
 
   </div>
   <div class="column">
     <img src="/images/otsu2.jpg"  style="width:100%">
-    <figcaption>Otsu Result</figcaption>
+    <figcaption><b>Otsu Result</b></figcaption>
 
   </div>
   <div class="column">
     <img src="/images/sauvola2.jpg" style="width:100%">
-    <figcaption>Our Result</figcaption>
+    <figcaption><b>Our Result</b></figcaption>
 
 </div>
 
