@@ -59,11 +59,13 @@ As discussed, binarization converts the image with many shades into an image of 
 <h3>Sauvola's Method: </h3>
 <p class="inner-page">
   
-  
-
-In Sauvola’s binarization method, the threshold t(x, y) is computed using the mean m(x, y) and standarddeviation s(x, y) of the pixel intensities in a w × w window centered around the pixel (x, y):
+In Sauvola’s binarization method, the threshold t(x, y) is computed using the mean m(x, y) and standard deviation s(x, y) of the pixel intensities in a w × w window centered around the pixel (x, y):
 
 <img class="middle" src="/images/sauvola_method.jpg"  style="width:100%">
+
+where k is a control factor in the range of [0.2, 0.5] and R is a predetermined image graylevel value. The author of the original paper suggested k=0.2, R= 125. The local mean m(x, y) and standard deviation s(x, y) adapt the value of the threshold according to the contrast in the local neighborhood of the pixel. When there is high contrast in some region of the image, s(x, y) ≈ R which results in t(x, y) ≈ m(x, y). This is the same result as in Niblack’s method. However, the difference comes in when the contrast in the local neighborhood is quite low. In that case the threshold t(x, y) goes below the mean value thereby successfully removing the relatively dark regions of the background. The parameter k controls the value of the threshold in the local window such that the higher the value of k, the lower the threshold from the local mean m(x, y).
+
+Since this method is good for low contrast and can tackle problems like Shadows, Luminance, Degradation, Noise, smudge, stains etc in an image So this was a perfect solution for us. However, in order to compute the threshold t(x, y), local mean and standard deviation have to be computed for each pixel.Computing m(x, y) and s(x, y) in a naive way results in a computational complexity of O(W2N2) for an N × N image. This slows up computation for larger images.
 
 </p>
 
