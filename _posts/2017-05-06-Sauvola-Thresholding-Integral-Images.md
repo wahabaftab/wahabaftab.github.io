@@ -13,8 +13,6 @@ ul,li,p{font-size:16px;}
 }
 
 figcaption {
-  background-color: black;
-  color: white;
   font-style: italic;
   text-align: center;
 }
