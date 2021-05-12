@@ -8,19 +8,23 @@ layout: inner_page
 <style>
 ul,li,p{font-size:16px;}  
 
+* {
+  box-sizing: border-box;
+}
 
 .column {
   float: left;
   width:20%;
   padding: 5px;
 }
+
 .middle{     
   display: block;
   margin-left: auto;
   margin-right: auto;
-
-
     }
+    
+   
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
