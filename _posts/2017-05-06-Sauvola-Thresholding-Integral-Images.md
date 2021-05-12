@@ -112,6 +112,10 @@ Now taking square-root of the variance to find standard deviation and using the 
 
 <h3>Results: </h3>
 
+<p class="inner-page">
+Values of k, R and window size can be changed to achieve best results depending upon the type of images.You can find some sample results below: 
+</p>
+
 <div class="row">
   <div class="column">
     <img src="/images/original1.jpg"  style="width:100%">
