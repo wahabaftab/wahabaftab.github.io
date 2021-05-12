@@ -1,7 +1,7 @@
 ---
 title: "Efficient Implementation of Sauvola Method Using Integral Images"
 last_modified_at:
-excerpt: We optimized a local adaptive thresholding technique with the help of integral images to binarize degraded documents. 
+excerpt: We optimized a local adaptive thresholding technique with the help of integral images to binarize degraded and historical documents. 
 
 layout: inner_page
 ---
@@ -27,11 +27,29 @@ ul,li,p{font-size:16px;}
 </style>
 
 <p class="inner-page">
-I made an android app for self learning, the app is a simple snakes and ladders game made in Android Studio. The game lets the user play against an AI where both the players take turns. First player to reach the 100 mark will be declared the winner and a prompt will be shown. The game also has an instruction guide and a splash screen along with customized buttons and pictures. You can find sample screenshots below and project code and detailed explanation can be found on the link given at the end.
+  
+In this Project, we developed a method to binarize degraded or historical documents. The method was the implementation of the Adaptive Thresholding Methods for Documents Image
+Binarization Research Paper (link given at the bottom).
+The image is first converted to grayscale to apply a thresholding technique, then Sauvola method is used to compute the threshold using mean and standard deviation of neighbouring window pixels. Instead of summing over all the pixels to find mean and standard deviation withtin a window, integral images are used to efficienty compute mean and standard deviation with as little as 4 mathematical operations. This makes the method much more efficient and reduces runtime drastically without relying on window size and it doesn't have any impact on original Sauvola method quality.
+
 </p>
 
 
+<h3> Image Binarization: </h3>
 
+<p class="inner-page">
+
+Image binarization is the process of taking a grayscale image and converting it to black-and-white, essentially reducing the information contained within the image from 256 shades of gray to 2: black and white, a binary image.It's the most important step in pre-processing of scanned documents to save all or maximum subcomponents such us text, background and image.Binarization computes the threshold value that differentiate object and background pixels.As we know grayscale image pixel values range from [0-255] So after conversion to grayscale, image pixel values are converted to white i.e 255 if they are above threshold value and to black i.e 0 if they are below the threshold making 
+all the pixels either 0 or 255 hence the term binary.
+</p>
+
+<h3>Sauvola's Method: </h3>
+<p class="inner-page">
+
+As discussed, binarization converts the image with many shades into an image of black and white depending on the threshold value. There are many methods to compute the threshold value to achieve best results, global thresholding is one method where a global threshold (typically 127) is used to binarize entire image but its outdated. Many other adaptive thresholding techniques are also used like otsu to binarize image based on region wise thresholding i.e different threshold is computed for different regions. Otsu gives good results but it fails when there are Shadows, Luminance, Degradation, Noise, smudge, stains etc in the image So for that we used another method.
+![image](https://user-images.githubusercontent.com/25950715/118025573-6e6d3e80-b379-11eb-924a-b40b0cbd9b08.png)
+
+</p>
 
 
 
