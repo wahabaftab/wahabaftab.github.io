@@ -101,7 +101,7 @@ Similarly, we can compute the variance like:
 
 </p>
 
-<img class="middle" src="/images/std.jpg"  style="width:70%">
+<img class="middle" src="/images/std.jpg"  style="width:60%">
 
 <p class="inner-page">
 
