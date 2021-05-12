@@ -40,8 +40,10 @@ figcaption {
   display: table;
 }
 </style>
-<h4 style="display: inline;">Team members: <i style="font-size: 16px;">Wahab Aftab, <a href='https://faizanzafar.de'>Faizan Zafar</a>, Saad Raza, Raja Umair</i></h4>
 
+<h4 style="display: inline;">Team members: <i style="font-size: 16px;">Wahab Aftab, <a href='https://faizanzafar.de'>Faizan Zafar</a>, Saad Raza, Raja Umair</i></h4>
+<p class="inner-page">
+</p>
 <p class="inner-page">
   
 In this Project, we developed a method to binarize degraded or historical documents. The method is the implementation of the Adaptive Thresholding Methods for Documents Image
