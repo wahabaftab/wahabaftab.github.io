@@ -6,13 +6,15 @@ excerpt: We optimized a local adaptive thresholding technique with the help of i
 layout: inner_page
 ---
 <style>
-ul,li,p{font-size:16px;}  
+ul,li,p,figcaption{font-size:16px;}  
 
 * {
   box-sizing: border-box;
 }
 
 figcaption {
+  background-color: black;
+  color: white;
   font-style: italic;
   text-align: center;
 }
