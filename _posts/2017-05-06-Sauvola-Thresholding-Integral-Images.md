@@ -46,7 +46,7 @@ The image is first converted to grayscale to apply a thresholding technique, the
 
 <p class="inner-page">
 
-Image binarization is the process of taking a grayscale image and converting it to black-and-white, essentially reducing the information contained within the image from 256 shades of gray to 2: black and white, a binary image.It's the most important step in pre-processing of scanned documents to save all or maximum subcomponents such us text, background and image.Binarization computes the threshold value that differentiate object and background pixels.As we know grayscale image pixel values range from [0-255] So after conversion to grayscale, image pixel values are converted to white i.e 255 if they are above threshold value and to black i.e 0 if they are below the threshold making 
+Image binarization is the process of taking a grayscale image and converting it to black-and-white, essentially reducing the information contained within the image from 256 shades of gray to 2: black and white, a binary image. It's the most important step in pre-processing of scanned documents to save all or maximum subcomponents such us text, background and image. Binarization computes the threshold value that differentiate object and background pixels. As we know grayscale image pixel values range from [0-255] So after conversion to grayscale, image pixel values are converted to white i.e 255 if they are above threshold value and to black i.e 0 if they are below the threshold making 
 all the pixels either 0 or 255 hence the term binary.
 </p>
 
@@ -71,7 +71,7 @@ In Sauvola’s binarization method, the threshold t(x, y) is computed using the 
 
 where k is a control factor in the range of [0.2, 0.5] and R is a predetermined image graylevel value. The author of the original paper suggested k=0.2, R= 125. The local mean m(x, y) and standard deviation s(x, y) adapt the value of the threshold according to the contrast in the local neighborhood of the pixel. When there is high contrast in some region of the image, s(x, y) ≈ R which results in t(x, y) ≈ m(x, y). This is the same result as in Niblack’s method. However, the difference comes in when the contrast in the local neighborhood is quite low. In that case the threshold t(x, y) goes below the mean value thereby successfully removing the relatively dark regions of the background. The parameter k controls the value of the threshold in the local window such that the higher the value of k, the lower the threshold from the local mean m(x, y).
 
-Since this method is good for low contrast and can tackle problems like Shadows, Luminance, Degradation, Noise, smudge, stains etc in an image So this was a perfect solution for us. However, in order to compute the threshold t(x, y), local mean and standard deviation have to be computed for each pixel.Computing m(x, y) and s(x, y) in a naive way results in a computational complexity of O(W^2xN^2) for an N × N image. This slows up computation for larger images.
+Since this method is good for low contrast and can tackle problems like Shadows, Luminance, Degradation, Noise, smudge, stains etc in an image, So it provided us with a perfect solution for our problem. However, in order to compute the threshold t(x, y), local mean and standard deviation have to be computed for each pixel. Computing m(x, y) and s(x, y) in a naive way results in a computational complexity of O(W^2 x N^2) for an N × N image which makes the process very slow.
 
 </p>
 
@@ -105,34 +105,53 @@ Similarly, we can compute the variance like:
 
 <p class="inner-page">
 
-Now taking square-root of the variance to find standard deviation and using the computed values of mean and standard deviation in the original Sauvola formula we can find the optimal local thresholds for pixels in the image very efficiently,independent of the local window size. Using this method reduces the computational complexity from O(W^2 x N^2) to O(N^2).An important hint from implementation point of view is that the values of the squared integral image get very large, so overflow problems might occur if 32-bit integers are used.
+Now taking square-root of the variance to find standard deviation and using the computed values of mean and standard deviation in the original Sauvola formula we can find the optimal local thresholds for pixels in the image very efficiently, independent of the local window size. Using this method reduces the computational complexity from O(W^2 x N^2) to O(N^2) which is much quicker. An important hint from implementation point of view is that the values of the squared integral image get very large, so overflow problems might occur if 32-bit integers are used.
 
 </p>
 
 
-<h3>Screenshots: </h3>
+<h3>Results: </h3>
 
 <div class="row">
   <div class="column">
-    <img src="/images/screenshot1.jpg"  style="width:100%">
-    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    <img src="/images/original1.jpg"  style="width:100%">
+    <figcaption>Original Image</figcaption>
 
   </div>
   <div class="column">
-    <img src="/images/screenshot2.jpg"  style="width:100%">
-    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    <img src="/images/otsu1.jpg"  style="width:100%">
+    <figcaption>Otsu Result</figcaption>
 
   </div>
   <div class="column">
-    <img src="/images/screenshot3.jpg" style="width:100%">
-    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    <img src="/images/sauvola1.jpg" style="width:100%">
+    <figcaption>Our Result</figcaption>
+
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="/images/original2.jpg"  style="width:100%">
+    <figcaption>Original Image</figcaption>
+
+  </div>
+  <div class="column">
+    <img src="/images/otsu2.jpg"  style="width:100%">
+    <figcaption>Otsu Result</figcaption>
+
+  </div>
+  <div class="column">
+    <img src="/images/sauvola2.jpg" style="width:100%">
+    <figcaption>Our Result</figcaption>
 
 </div>
 
 <p class="inner-page">
+You can find the code and the reference paper below!
 </p>
-<h4><b><a href="https://github.com/wahabaftab/Snakes-And-Ladders">Github Repo</a></b></h4>
+<h4><b><a href="https://github.com/wahabaftab/Adaptive-Thresholding-to-Binarize-Degraded-Documents-with-Sauvola-Method-using-Integral-Images">Code</a></b></h4>
 
+<h4><b><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.5334&rep=rep1&type=pdf">Reference Paper</a></b></h4>
 
 
 
