@@ -12,6 +12,14 @@ ul,li,p{font-size:16px;}
   box-sizing: border-box;
 }
 
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
 .column {
   float: left;
   width:33%;
@@ -145,7 +153,7 @@ Values of k, R and window size can be changed to achieve best results depending 
 
   </div>
   <div class="column">
-    <img src="/images/sauvola2.jpg" style="width:100%; text-align:center">
+    <img src="/images/sauvola2.jpg" style="width:100%">
     <figcaption><b>Our Result</b></figcaption>
 
 </div>
