@@ -18,9 +18,10 @@ ul,li,p{font-size:16px;}
   padding: 5px;
 }
 middle{     
-display: block;
-margin-left: auto;
-margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 
     }
 /* Clearfix (clear floats) */
