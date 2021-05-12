@@ -40,6 +40,7 @@ figcaption {
   display: table;
 }
 </style>
+<h4 style="display: inline;">Team members: <i style="font-size: 16px;">Wahab Aftab, <a href='faizanzafar.de'>Faizan Zafar</a>, Saad Raza, Raja Umair</i></h4>
 
 <p class="inner-page">
   
