@@ -16,7 +16,6 @@ figcaption {
   background-color: black;
   color: white;
   font-style: italic;
-  padding: 2px;
   text-align: center;
 }
 
