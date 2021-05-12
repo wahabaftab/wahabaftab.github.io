@@ -79,18 +79,17 @@ The Integral Image is used as a quick and effective way of calculating the sum o
 image. So the intensity at position (x, y) can be written as:
 
 
-<img class="middle" src="/images/integral.jpg"  style="width:80%">
+<img class="middle" src="/images/integral.jpg"  style="width:100%">
 
 The integral image of any grayscale image can be easily computed in OpenCV in a single pass with 1 line of code. Once we have the integral image, the local mean m(x, y) for any window size can be computed simply by using two addition and two subtraction operations instead of the summation over all pixel values within that window:
 
-<img class="middle" src="/images/mean.jpg"  style="width:80%">
+<img class="middle" src="/images/mean.jpg"  style="width:100%">
 
 Similarly, we can compute the variance like:
 
-<img class="middle" src="/images/std.jpg"  style="width:80%">
+<img class="middle" src="/images/std.jpg"  style="width:100%">
 
-Now taking square-root of the variance to find standard deviation and using the computed values of mean and standard deviation in the original Sauvola formula we can find the optimal local thresholds for pixels in the image very efficiently,independent of the local window size. Using this method reduces the
-computational complexity from O(W^2 x N^2) to O(N^2)
+Now taking square-root of the variance to find standard deviation and using the computed values of mean and standard deviation in the original Sauvola formula we can find the optimal local thresholds for pixels in the image very efficiently,independent of the local window size. Using this method reduces the computational complexity from O(W^2 x N^2) to O(N^2).An important hint from implementation point of view is that the values of the squared integral image get very large, so overflow problems might occur if 32-bit integers are used.
 
 </p>
 
