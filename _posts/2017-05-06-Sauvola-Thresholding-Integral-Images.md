@@ -21,8 +21,6 @@ middle{
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 30%;
-max-height: 30%;
     }
 /* Clearfix (clear floats) */
 .row::after {
@@ -34,7 +32,7 @@ max-height: 30%;
 
 <p class="inner-page">
   
-In this Project, we developed a method to binarize degraded or historical documents. The method was the implementation of the Adaptive Thresholding Methods for Documents Image
+In this Project, we developed a method to binarize degraded or historical documents. The method is the implementation of the Adaptive Thresholding Methods for Documents Image
 Binarization Research Paper (link given at the bottom).
 The image is first converted to grayscale to apply a thresholding technique, then Sauvola method is used to compute the threshold using mean and standard deviation of neighbouring window pixels. Instead of summing over all the pixels to find mean and standard deviation withtin a window, integral images are used to efficienty compute mean and standard deviation with as little as 4 mathematical operations. This makes the method much more efficient and reduces runtime drastically without relying on window size and it doesn't have any impact on original Sauvola method quality.
 
@@ -65,7 +63,34 @@ In Sauvola’s binarization method, the threshold t(x, y) is computed using the 
 
 where k is a control factor in the range of [0.2, 0.5] and R is a predetermined image graylevel value. The author of the original paper suggested k=0.2, R= 125. The local mean m(x, y) and standard deviation s(x, y) adapt the value of the threshold according to the contrast in the local neighborhood of the pixel. When there is high contrast in some region of the image, s(x, y) ≈ R which results in t(x, y) ≈ m(x, y). This is the same result as in Niblack’s method. However, the difference comes in when the contrast in the local neighborhood is quite low. In that case the threshold t(x, y) goes below the mean value thereby successfully removing the relatively dark regions of the background. The parameter k controls the value of the threshold in the local window such that the higher the value of k, the lower the threshold from the local mean m(x, y).
 
-Since this method is good for low contrast and can tackle problems like Shadows, Luminance, Degradation, Noise, smudge, stains etc in an image So this was a perfect solution for us. However, in order to compute the threshold t(x, y), local mean and standard deviation have to be computed for each pixel.Computing m(x, y) and s(x, y) in a naive way results in a computational complexity of O(W2N2) for an N × N image. This slows up computation for larger images.
+Since this method is good for low contrast and can tackle problems like Shadows, Luminance, Degradation, Noise, smudge, stains etc in an image So this was a perfect solution for us. However, in order to compute the threshold t(x, y), local mean and standard deviation have to be computed for each pixel.Computing m(x, y) and s(x, y) in a naive way results in a computational complexity of O(W^2xN^2) for an N × N image. This slows up computation for larger images.
+
+</p>
+
+
+
+
+
+<h3>Integral Images: </h3>
+<p class="inner-page">
+  
+  
+The Integral Image is used as a quick and effective way of calculating the sum of values (pixel values) in a given image. An integral image i of an input image g is defined as the image in which the intensity at a pixel position is equal to the sum of the intensities of all the pixels above and to the left of that position in the original
+image. So the intensity at position (x, y) can be written as:
+
+
+<img class="middle" src="/images/integral.jpg"  style="width:80%">
+
+The integral image of any grayscale image can be easily computed in OpenCV in a single pass with 1 line of code. Once we have the integral image, the local mean m(x, y) for any window size can be computed simply by using two addition and two subtraction operations instead of the summation over all pixel values within that window:
+
+<img class="middle" src="/images/mean.jpg"  style="width:80%">
+
+Similarly, we can compute the variance like:
+
+<img class="middle" src="/images/std.jpg"  style="width:80%">
+
+Now taking square-root of the variance to find standard deviation and using the computed values of mean and standard deviation in the original Sauvola formula we can find the optimal local thresholds for pixels in the image very efficiently,independent of the local window size. Using this method reduces the
+computational complexity from O(W^2 x N^2) to O(N^2)
 
 </p>
 
