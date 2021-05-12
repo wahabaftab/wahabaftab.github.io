@@ -14,7 +14,7 @@ ul,li,p{font-size:16px;}
 
 .column {
   float: left;
-  width:20%;
+  width:33%;
   padding: 5px;
 }
 
@@ -115,19 +115,18 @@ Now taking square-root of the variance to find standard deviation and using the 
 <div class="row">
   <div class="column">
     <img src="/images/screenshot1.jpg"  style="width:100%">
+    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+
   </div>
   <div class="column">
     <img src="/images/screenshot2.jpg"  style="width:100%">
+    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+
   </div>
   <div class="column">
     <img src="/images/screenshot3.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/images/screenshot4.jpg"  style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/images/screenshot5.jpg" style="width:100%">
-  </div>
+    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+
 </div>
 
 <p class="inner-page">
