@@ -16,8 +16,10 @@ ul,li,p{font-size:16px;}
 }
 middle{     
 display: block;
-margin-left: 25%;
-margin-right: 25%;
+margin-left: auto;
+margin-right: auto;
+max-width: 50%;
+max-height: 50%;
     }
 /* Clearfix (clear floats) */
 .row::after {
