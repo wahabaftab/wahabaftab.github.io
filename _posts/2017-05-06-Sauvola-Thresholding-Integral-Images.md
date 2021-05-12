@@ -83,7 +83,7 @@ image. So the intensity at position (x, y) can be written as:
 
 </p>
 
-<img class="middle" src="/images/integral.jpg"  style="width:50%">
+<img class="middle" src="/images/integral.jpg"  style="width:30%">
 
 <p class="inner-page">
 
@@ -91,7 +91,7 @@ The integral image of any grayscale image can be easily computed in OpenCV in a 
 
 </p>
 
-<img class="middle" src="/images/mean.jpg"  style="width:50%">
+<img class="middle" src="/images/mean.jpg"  style="width:70%">
 
 <p class="inner-page">
 
@@ -99,7 +99,7 @@ Similarly, we can compute the variance like:
 
 </p>
 
-<img class="middle" src="/images/std.jpg"  style="width:50%">
+<img class="middle" src="/images/std.jpg"  style="width:70%">
 
 <p class="inner-page">
 
