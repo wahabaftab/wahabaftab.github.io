@@ -164,9 +164,7 @@ Values of k, R and window size can be changed to achieve best results depending 
 <p class="inner-page">
 You can find the code and the reference paper below!
 </p>
-<h4><b><a href="https://github.com/wahabaftab/Adaptive-Thresholding-to-Binarize-Degraded-Documents-with-Sauvola-Method-using-Integral-Images">Code</a></b></h4>
-
-<h4><b><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.5334&rep=rep1&type=pdf">Reference Paper</a></b></h4>
+<h4><b><a href="https://github.com/wahabaftab/Adaptive-Thresholding-to-Binarize-Degraded-Documents-with-Sauvola-Method-using-Integral-Images">Code</a></b></h4> <h4><b><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.5334&rep=rep1&type=pdf">Reference Paper</a></b></h4>
 
 
 
