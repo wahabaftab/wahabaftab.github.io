@@ -113,7 +113,7 @@ Similarly, we can compute the variance like:
 
 <p class="inner-page">
 
-Now taking square-root of the variance to find standard deviation and using the computed values of mean and standard deviation in the original Sauvola formula we can find the optimal local thresholds for pixels in the image very efficiently, independent of the local window size. Using this method reduces the computational complexity from O(W^2 x N^2) to O(N^2) which is much quicker. An important hint from implementation point of view is that the values of the squared integral image get very large, so overflow problems might occur if 32-bit integers are used.
+Now we can find standard deviation by taking square-root of the variance and by using the computed values of mean and standard deviation in the original Sauvola formula we can find threshild value for pixels in the image very efficiently, and independent of the local window size. This method reduces the computational complexity from O(W^2 x N^2) to O(N^2) thus making the whole process much quicker. An important hint from implementation point of view is that the values of the squared integral image get very large, so overflow problems might occur if 32-bit integers are used.
 
 </p>
 
