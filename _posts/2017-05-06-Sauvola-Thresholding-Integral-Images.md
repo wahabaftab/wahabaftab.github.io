@@ -14,7 +14,7 @@ ul,li,p{font-size:16px;}
   width:20%;
   padding: 5px;
 }
-middle{     
+.middle{     
   display: block;
   margin-left: auto;
   margin-right: auto;
