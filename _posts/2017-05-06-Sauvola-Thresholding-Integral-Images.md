@@ -57,8 +57,8 @@ As discussed, binarization converts the image with many shades into an image of 
   
 
 In Sauvola’s binarization method, the threshold t(x, y) is computed using the mean m(x, y) and standarddeviation s(x, y) of the pixel intensities in a w × w window centered around the pixel (x, y):
-![image](https://user-images.githubusercontent.com/25950715/118027545-7ded8700-b37b-11eb-9cd5-ae014e136136.png)
 
+![image](https://user-images.githubusercontent.com/25950715/118027658-9bbaec00-b37b-11eb-8721-cbd81771c9d2.png)
 
 </p>
 
