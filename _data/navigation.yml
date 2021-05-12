@@ -1,7 +1,6 @@
 # Site navigation links
 
 
-
 # Blogs
 - title: Blogs
   url: /blog/
@@ -14,13 +13,10 @@
 - title: About Me!
   url: /about_me/ 
   
-  
 # Certifications
 - title: Certifications
   url: /certifications/
-
-
+  
 # Curriculum Vitae
 - title: CV
   url: /Documents/CV.pdf
-
