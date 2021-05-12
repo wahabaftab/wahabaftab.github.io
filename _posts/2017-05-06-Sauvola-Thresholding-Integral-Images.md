@@ -119,7 +119,7 @@ Values of k, R and window size can be changed to achieve best results depending 
 <div class="row">
   <div class="column">
     <img src="/images/original1.jpg"  style="width:100%">
-    <figcaption><b>Original Image</b></figcaption>
+    <figcaption class='middle'><b>Original Image</b></figcaption>
 
   </div>
   <div class="column">
