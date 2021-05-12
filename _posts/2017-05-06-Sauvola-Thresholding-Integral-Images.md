@@ -17,7 +17,7 @@ figcaption {
   color: white;
   font-style: italic;
   text-align: center;
-  font-size:11px;
+  font-size:12px;
 }
 
 .column {
@@ -140,7 +140,7 @@ Values of k, R and window size can be changed to achieve best results depending 
     <figcaption><b>Our Result</b></figcaption>
 
 </div>
-
+<p></p>
 <div class="row">
   <div class="column">
     <img src="/images/original2.jpg"  style="width:100%">
