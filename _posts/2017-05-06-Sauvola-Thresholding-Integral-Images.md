@@ -8,9 +8,6 @@ layout: inner_page
 <style>
 ul,li,p{font-size:16px;}  
 
-* {
-  box-sizing: border-box;
-}
 
 .column {
   float: left;
