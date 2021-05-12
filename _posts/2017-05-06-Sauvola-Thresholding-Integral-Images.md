@@ -6,7 +6,7 @@ excerpt: We optimized a local adaptive thresholding technique with the help of i
 layout: inner_page
 ---
 <style>
-ul,li,p,figcaption{font-size:16px;}  
+ul,li,p{font-size:16px;}  
 
 * {
   box-sizing: border-box;
@@ -17,6 +17,7 @@ figcaption {
   color: white;
   font-style: italic;
   text-align: center;
+  font-size:11px;
 }
 
 .column {
