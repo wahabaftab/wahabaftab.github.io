@@ -145,7 +145,7 @@ Values of k, R and window size can be changed to achieve best results depending 
 
   </div>
   <div class="column">
-    <img src="/images/sauvola2.jpg" style="width:100%">
+    <img src="/images/sauvola2.jpg" style="width:100%; text-align:center">
     <figcaption><b>Our Result</b></figcaption>
 
 </div>
