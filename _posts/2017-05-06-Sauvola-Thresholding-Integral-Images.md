@@ -53,7 +53,7 @@ all the pixels either 0 or 255 hence the term binary.
 <h3>Binarization Techniques: </h3>
 <p class="inner-page">
 
-As discussed, binarization converts the image with many shades into an image of black and white depending on the threshold value. There are many methods to compute the threshold value to achieve best results, global thresholding is one method where a global threshold (typically 127) is used to binarize entire image but its outdated. Many other adaptive thresholding techniques are also used like otsu to binarize image based on region wise thresholding i.e different threshold is computed for different regions. Otsu gives good results but it fails when there are Shadows, Luminance, Degradation, Noise, smudge, stains etc in the image So for that we used another method.
+As discussed, binarization converts the image with many shades into an image of black and white depending on the threshold value. There are many methods to compute the threshold value, global thresholding is one method where a global threshold (typically 127) is used to binarize entire image. Many other adaptive thresholding techniques are also used like otsu to binarize image based on region wise thresholding i.e different thresholdss are computed for different regions. These methods work when applying thresholding onto good quality image. However, this task becomes difficult when it deals with degraded image.
 
 </p>
 
