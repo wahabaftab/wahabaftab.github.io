@@ -17,7 +17,7 @@ figcaption {
   color: white;
   font-style: italic;
   text-align: center;
-  font-size:12px;
+  font-size:13px;
 }
 
 .column {
