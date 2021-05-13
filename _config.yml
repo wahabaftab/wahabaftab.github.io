@@ -54,16 +54,21 @@ plugins:
 search_full_content: false # can have performance implications for large sites
 
 # Collections
+
 collections:
+
   certifications:
     output: true
     permalink: /:collection/:path/
+    
   blogs:
     output: true
     permalink: /:collection/:path/
 
 # Front Matter Defaults
+
 defaults:
+
   # Post defaults
   - scope:
       path: "_posts"
