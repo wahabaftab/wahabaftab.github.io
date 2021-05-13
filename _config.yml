@@ -58,12 +58,6 @@ collections:
   certifications:
     output: true
     permalink: /:collection/:path/
-  consult:
-    output: true
-    permalink: /:collection/:path/
-  diffract:
-    output: true
-    permalink: /:collection/:path/
   blogs:
     output: true
     permalink: /:collection/:path/
